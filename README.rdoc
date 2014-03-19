@@ -1,2 +1,2 @@
 == Simple Menu
-This is a project I'm using as a way of finding new and convenient generators for other projects. The goal of simplemenu is to create a menu through an admin panel that can be displayed on a website.
+A project designed to expose redundancy in web application development so that it can be refactored out through generators and partials.
