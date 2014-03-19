@@ -5,7 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.rdoc" afterPath="$PROJECT_DIR$/README.rdoc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Simple Menu.iml" afterPath="$PROJECT_DIR$/.idea/Simple Menu.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/TJ.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/TJ.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_alert_box.html.haml" afterPath="$PROJECT_DIR$/app/views/shared/_alert_box.html.haml" />
@@ -55,7 +54,7 @@
     <ignored path="Simple Menu.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/routes.rb" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1389129098802" ignored="false" />
-    <file path="/Dummy.txt" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1395258678271" ignored="false" />
+    <file path="/Dummy.txt" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1395262793274" ignored="false" />
     <file path="/application.rb" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1389130574655" ignored="false" />
     <file path="/controller.rb" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1389292579594" ignored="false" />
     <file path="/_form.html.haml" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1388769587667" ignored="false" />
@@ -78,7 +77,7 @@
     <file path="/ujs.js.coffee" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1389125893030" ignored="false" />
     <file path="/_alert_box.html.haml" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1389075814292" ignored="false" />
     <file path="/a.dummy" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1390688467523" ignored="false" />
-    <file path="/index.js.coffee" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1395262334899" ignored="false" />
+    <file path="/index.js.coffee" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1395263018363" ignored="false" />
     <file path="/simple_styles.css.scss" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1395261111772" ignored="false" />
     <file path="/_undo_button.html.haml" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1389117871103" ignored="false" />
     <file path="/_new_model_toolbar.html.haml" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1389139950938" ignored="false" />
@@ -170,7 +169,16 @@
       <file leaf-file-name="index.js.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/index.js.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="21" selection-start="3414" selection-end="3414" vertical-scroll-proportion="0.54545456">
+            <state line="69" column="41" selection-start="3200" selection-end="3200" vertical-scroll-proportion="0.4318182">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="10" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -221,8 +229,8 @@
         <option value="$PROJECT_DIR$/lib/templates/haml/scaffold/index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/food_tests/_form.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/simple_styles.css.scss" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/index.js.coffee" />
         <option value="$PROJECT_DIR$/README.rdoc" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/index.js.coffee" />
       </list>
     </option>
   </component>
@@ -935,7 +943,11 @@
       <created>1395258680976</created>
       <updated>1395258680976</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fixed bug where all ajax rows were highlighted green instead of just the first one on each page. Decided on a javascript solution that removes old new-ajax-row classes upon appending the new row.">
+      <created>1395262796643</created>
+      <updated>1395262796643</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1004,7 +1016,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revising readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed bug where all ajax rows were highlighted green instead of just the first one on each page. Decided on a javascript solution that removes old new-ajax-row classes upon appending the new row." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1021,6 +1033,7 @@
     <MESSAGE value="Commit of all the code created prior to git setup." />
     <MESSAGE value="New commit!" />
     <MESSAGE value="Revising readme" />
+    <MESSAGE value="Fixed bug where all ajax rows were highlighted green instead of just the first one on each page. Decided on a javascript solution that removes old new-ajax-row classes upon appending the new row." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1126,9 +1139,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="10" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/index.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="21" selection-start="3414" selection-end="3414" vertical-scroll-proportion="0.54545456">
+        <state line="69" column="41" selection-start="3200" selection-end="3200" vertical-scroll-proportion="0.4318182">
           <folding />
         </state>
       </provider>

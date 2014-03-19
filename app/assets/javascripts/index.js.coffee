@@ -64,7 +64,7 @@ $('table')
       $(tbody_el.firstElementChild).after($(data)[2])
       iterateEl tbody_el.firstElementChild.nextElementSibling
     else
-      shown_el[0].className = '' #only one new row per page
+      shown_el[0].className = '' if shown_el[0].className == 'new-ajax-row'  #only one new row per page
       $(shown_el[0]).before($(data)[2])
       iterateEl shown_el[0].previousElementSibling
 
