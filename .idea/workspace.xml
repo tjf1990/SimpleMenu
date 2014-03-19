@@ -2,116 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/mailers/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tasks/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/rails.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20131212225113_devise_create_users.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140103214508_create_food_items.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140109184252_create_food_tests.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/422.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/500.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.rdoc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/README_FOR_APP" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rakefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Simple Menu.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/TJ.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/shared/_alert_box.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/shared/_combo_partial.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/food_items/_form.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/food_tests/_form.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/templates/haml/scaffold/_form.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/shared/_help_block.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/shared/_index_page_control.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/shared/_new_model_toolbar.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/food_tests/_row.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/templates/haml/scaffold/_row.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/food_tests/_row_form.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/templates/haml/scaffold/_row_form.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/shared/_rud_toolbar.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/shared/_title.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/shared/_undo_button.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/ability.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/application.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/backtrace_silencers.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/boot.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.ru" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/templates/rails/scaffold_controller/controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/database.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/locales/devise.en.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/devise.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/food_items/edit.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/food_tests/edit.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/templates/haml/scaffold/edit.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/locales/en.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/environment.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/food_item.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/models/food_item_spec.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/food_items_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/food_items_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/requests/food_items_spec.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/food_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/models/food_test_spec.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/food_tests_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/food_tests_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/requests/food_tests_spec.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/food_items/index.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/food_tests/index.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/templates/haml/scaffold/index.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/index.js.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/inflections.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/mime_types.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/templates/active_record/model/model.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/food_items/new.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/food_tests/new.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/templates/haml/scaffold/new.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/script/rails" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/robots.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/secret_token.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/seeds.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/session_store.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/food_items/show.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/food_tests/show.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/templates/haml/scaffold/show.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/simple_styles.css.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/environments/test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/user.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/wrap_parameters.rb" />
+      <change type="DELETED" beforePath="C:\Users\TJ\RubymineProjects\Simple Menu\README" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.rdoc" afterPath="$PROJECT_DIR$/README.rdoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Simple Menu.iml" afterPath="$PROJECT_DIR$/.idea/Simple Menu.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/TJ.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/TJ.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_alert_box.html.haml" afterPath="$PROJECT_DIR$/app/views/shared/_alert_box.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_combo_partial.html.haml" afterPath="$PROJECT_DIR$/app/views/shared/_combo_partial.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/food_items/_form.html.haml" afterPath="$PROJECT_DIR$/app/views/food_items/_form.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/food_tests/_form.html.haml" afterPath="$PROJECT_DIR$/app/views/food_tests/_form.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/templates/haml/scaffold/_form.html.haml" afterPath="$PROJECT_DIR$/lib/templates/haml/scaffold/_form.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_help_block.html.haml" afterPath="$PROJECT_DIR$/app/views/shared/_help_block.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_index_page_control.html.haml" afterPath="$PROJECT_DIR$/app/views/shared/_index_page_control.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_new_model_toolbar.html.haml" afterPath="$PROJECT_DIR$/app/views/shared/_new_model_toolbar.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/food_tests/_row.html.haml" afterPath="$PROJECT_DIR$/app/views/food_tests/_row.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/templates/haml/scaffold/_row.html.haml" afterPath="$PROJECT_DIR$/lib/templates/haml/scaffold/_row.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/food_tests/_row_form.html.haml" afterPath="$PROJECT_DIR$/app/views/food_tests/_row_form.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/templates/haml/scaffold/_row_form.html.haml" afterPath="$PROJECT_DIR$/lib/templates/haml/scaffold/_row_form.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_rud_toolbar.html.haml" afterPath="$PROJECT_DIR$/app/views/shared/_rud_toolbar.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_title.html.haml" afterPath="$PROJECT_DIR$/app/views/shared/_title.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_undo_button.html.haml" afterPath="$PROJECT_DIR$/app/views/shared/_undo_button.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/templates/rails/scaffold_controller/controller.rb" afterPath="$PROJECT_DIR$/lib/templates/rails/scaffold_controller/controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/food_items/edit.html.haml" afterPath="$PROJECT_DIR$/app/views/food_items/edit.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/food_tests/edit.html.haml" afterPath="$PROJECT_DIR$/app/views/food_tests/edit.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/templates/haml/scaffold/edit.html.haml" afterPath="$PROJECT_DIR$/lib/templates/haml/scaffold/edit.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/food_item.rb" afterPath="$PROJECT_DIR$/app/models/food_item.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/food_items_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/food_items_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/food_test.rb" afterPath="$PROJECT_DIR$/app/models/food_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/food_tests_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/food_tests_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/food_items/index.html.haml" afterPath="$PROJECT_DIR$/app/views/food_items/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/food_tests/index.html.haml" afterPath="$PROJECT_DIR$/app/views/food_tests/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/templates/haml/scaffold/index.html.haml" afterPath="$PROJECT_DIR$/lib/templates/haml/scaffold/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/index.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/index.js.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/templates/active_record/model/model.rb" afterPath="$PROJECT_DIR$/lib/templates/active_record/model/model.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/food_items/new.html.haml" afterPath="$PROJECT_DIR$/app/views/food_items/new.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/food_tests/new.html.haml" afterPath="$PROJECT_DIR$/app/views/food_tests/new.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/templates/haml/scaffold/new.html.haml" afterPath="$PROJECT_DIR$/lib/templates/haml/scaffold/new.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/food_items/show.html.haml" afterPath="$PROJECT_DIR$/app/views/food_items/show.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/food_tests/show.html.haml" afterPath="$PROJECT_DIR$/app/views/food_tests/show.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/templates/haml/scaffold/show.html.haml" afterPath="$PROJECT_DIR$/lib/templates/haml/scaffold/show.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/simple_styles.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/simple_styles.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Simple Menu.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/routes.rb" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1389129098802" ignored="false" />
-    <file path="/Dummy.txt" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1395258007985" ignored="false" />
+    <file path="/Dummy.txt" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1395258103047" ignored="false" />
     <file path="/application.rb" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1389130574655" ignored="false" />
     <file path="/controller.rb" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1389292579594" ignored="false" />
     <file path="/_form.html.haml" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1388769587667" ignored="false" />
@@ -176,6 +121,7 @@
     <file path="/stock_history.rb" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1390770856860" ignored="false" />
     <file path="$PROJECT_DIR$/../RubyFApiClient/Game/stock_day_simulator.rb" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1390767963492" ignored="false" />
     <file path="/stock_day_simulator.rb" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1390767960978" ignored="false" />
+    <file path="/README.rdoc" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1395258300103" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,10 +149,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_form.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_form.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/food_tests/_form.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="90" selection-start="1218" selection-end="1218" vertical-scroll-proportion="0.33761683">
+            <state line="17" column="90" selection-start="1218" selection-end="1218" vertical-scroll-proportion="-11.115385">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.rdoc" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.rdoc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="199" selection-start="214" selection-end="214" vertical-scroll-proportion="0.019036954">
               <folding />
             </state>
           </provider>
@@ -261,7 +216,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$USER_HOME$/Desktop/dr house.txt" />
         <option value="$PROJECT_DIR$/app/views/shared/_gerd.html.haml" />
         <option value="$PROJECT_DIR$/app/views/shared/_combo_partial.html.haml" />
         <option value="$PROJECT_DIR$/app/views/shared/_rud_toolbar.html.haml" />
@@ -277,6 +231,7 @@
         <option value="$PROJECT_DIR$/app/views/shared/_index_header.html.haml" />
         <option value="$PROJECT_DIR$/app/views/food_tests/index.html.haml" />
         <option value="$PROJECT_DIR$/lib/templates/haml/scaffold/index.html.haml" />
+        <option value="$PROJECT_DIR$/README.rdoc" />
       </list>
     </option>
   </component>
@@ -809,17 +764,23 @@
       <created>1386886304190</created>
       <updated>1386886304190</updated>
     </task>
+    <task id="LOCAL-00001" summary="Commit of all the code created prior to git setup.">
+      <created>1395258123421</created>
+      <updated>1395258123421</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1696905" sideWeight="0.64386535" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19797225" sideWeight="0.64386535" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19797225" sideWeight="0.64386535" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16595517" sideWeight="0.437432" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -876,7 +837,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit of all the code created prior to git setup." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -890,6 +851,7 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="Commit of all the code created prior to git setup." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -897,11 +859,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/food_tests_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="146" selection-start="1644" selection-end="1644" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/food_tests/_row_form.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="26" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0" />
@@ -960,7 +917,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/templates/haml/scaffold/_row.html.haml">
@@ -986,7 +945,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/food_tests/_form.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="90" selection-start="1218" selection-end="1218" vertical-scroll-proportion="0.33761683">
+        <state line="17" column="90" selection-start="1218" selection-end="1218" vertical-scroll-proportion="-11.115385">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rdoc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="199" selection-start="214" selection-end="214" vertical-scroll-proportion="0.019036954">
           <folding />
         </state>
       </provider>
