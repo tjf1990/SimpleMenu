@@ -22,7 +22,7 @@
       - @food_test.errors[:description].each do |text|
         = error_help_block text.humanize
 
-  .form-group{class: ('has-error' if @food_test.errors[:price].any?) }
+  .form-group{class: ('has-error' if @food_test.errors[:price].any?)}
     = f.label :price, 'Price', class: "control-label col-xs-#{label_span[:xs]} col-sm-#{label_span[:sm]} col-md-#{label_span[:md]} col-lg-#{label_span[:lg]}"
 
     %div{class: "input-group col-xs-#{total_span[:xs] - label_span[:xs]} col-sm-#{total_span[:sm] - label_span[:sm]} col-md-#{total_span[:md] - label_span[:md]} col-lg-#{total_span[:lg] - label_span[:lg]}"}

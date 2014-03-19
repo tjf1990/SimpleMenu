@@ -1,2 +1,2 @@
 == Simple Menu
-A project designed to expose redundancy in web application development so that it can be refactored out through generators and partials.
+A project designed to expose redundancy in web application development so that it can be refactored out through generators and partials. It's time for web development to kill the boilerplate.
