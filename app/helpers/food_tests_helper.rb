@@ -1,0 +1,2 @@
+module FoodTestsHelper
+end

@@ -1,0 +1,19 @@
+-# toolbar for ActiveRecord instance
+-#model: activerecord model instance with RUD controller methods
+-#[enabled_buttons] = {show:(bool = (can? :read, model)), edit:(bool = (can? :update, model)), destroy:(bool = (can? :destroy, model))}
+
+.btn-group
+  -#show
+  - if enabled_buttons[:show] ||= (can? :read, model)
+    = link_to model, class: 'btn btn-default', title:'Show' do
+      %span.glyphicon.glyphicon-eye-open
+
+  -#edit
+  - if enabled_buttons[:edit] ||= (can? :update, model)
+    = link_to edit_polymorphic_path(model), class: 'btn btn-default', title: 'Edit' do
+      %span.glyphicon.glyphicon-edit
+
+  -#destroy
+  - if enabled_buttons[:destroy] ||= (can? :destroy, model)
+    = link_to model, method: :delete, confirm: "Will delete #{model.to_s}. Continue?", remote: true, class: 'btn btn-default row-destroy', title: 'Delete', data: {type: 'html'} do
+      %span.glyphicon.glyphicon-trash

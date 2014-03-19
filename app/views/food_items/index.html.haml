@@ -1,0 +1,52 @@
+- rows_per_page = 12 #number of rows displayed on one page
+
+= page_title 'Listing Food Items' do
+  %h4 #{@food_items.length} food items over #{(@food_items.length / rows_per_page).ceil + 1} pages
+
+%table.table.table-striped
+
+  %thead
+    %tr
+      %th #
+      %th Name
+      %th Description
+      %th Price
+      %th Is Alcoholic?
+      %th
+
+  %tbody
+    - @food_items.each_with_index do |food_item, index|
+      %tr{style: ('display: none;' if index >= rows_per_page)}
+        %td
+          %b= index + 1
+        %td= !(v = food_item.name).nil? ? v : 'Unset'
+        %td= !(v = food_item.description).nil? ? v : 'Unset'
+        %td= !(v = food_item.price).nil? ? "$#{number_with_precision(v, precision: 2)}" : 'Unset'
+        %td= !(v = food_item.is_alcoholic).nil? ? v ? 'Yes' : 'No' : 'Unset'
+        %td= rud_toolbar food_item
+
+- if rows_per_page < @food_items.length
+  .row
+    %div{style: 'text-align:center;'}
+      %h4#page-number-label Page 1
+  .row
+    %div{style: 'text-align:center;'}
+      -#todo: current page number label, num rows, page size
+      .pagination-control-group.btn-group
+        - pages = (@food_items.length / rows_per_page).ceil
+        - if pages > 10
+          %button#first-page.btn.btn-default.btn-sm{title: 'First Page'}
+            %span.glyphicon.glyphicon-step-backward
+
+          %button#prev-page.btn.btn-default.btn-sm{title: 'Previous Page'}
+            %span.glyphicon.glyphicon-chevron-left
+
+          %button#next-page.btn.btn-default.btn-sm{title: 'Next Page'}
+            %span.glyphicon.glyphicon-chevron-right
+
+          %button#last-page.btn.btn-default.btn-sm{title: 'Last Page'}
+            %span.glyphicon.glyphicon-step-forward
+        - else
+          - (0..(pages)).each do |pg|
+            %button.btn.btn-default.btn-sm.individual-pg-control{data: {page: pg}}
+              %b= "#{pg + 1}"

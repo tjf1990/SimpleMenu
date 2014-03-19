@@ -1,0 +1,7 @@
+-#Params:
+  is_error(boolean): if true will display exclamation icon
+  text(string): text to use for help block
+
+%p.help-block{style: (is_error ||= false) ? 'color:#d43f3a;' : 'color: #333333' }
+  %span.glyphicon{ class: (is_error ? 'glyphicon-exclamation-sign' : 'glyphicon-info-sign')}
+  %strong= text

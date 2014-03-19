@@ -1,0 +1,23 @@
+-# params: pages
+.row
+  %div{style: 'text-align:center;'}
+    %h4#page-number-label Page 1
+.row
+  %div{style: 'text-align:center;'}
+    .pagination-control-group.btn-group
+      - if pages > 10
+        %button#first-page.btn.btn-default.btn-sm{title: 'First Page'}
+          %span.glyphicon.glyphicon-step-backward
+
+        %button#prev-page.btn.btn-default.btn-sm{title: 'Previous Page'}
+          %span.glyphicon.glyphicon-chevron-left
+
+        %button#next-page.btn.btn-default.btn-sm{title: 'Next Page'}
+          %span.glyphicon.glyphicon-chevron-right
+
+        %button#last-page.btn.btn-default.btn-sm{title: 'Last Page'}
+          %span.glyphicon.glyphicon-step-forward
+      - else
+        - (0..(pages)).each do |pg|
+          %button.btn.btn-default.btn-sm.individual-pg-control{data: {page: pg}}
+            %b= "#{pg + 1}"

@@ -1,0 +1,9 @@
+-#optionally accepts block embedded in .row after title
+.row
+  .col-lg-6{style: 'margin-bottom: 1em;'}
+    %h2= (title ||= "#{params[:action].titleize} #{params[:controller].singularize.titleize}")
+    - if block
+      = block
+
+
+

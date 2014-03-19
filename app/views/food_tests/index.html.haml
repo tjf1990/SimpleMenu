@@ -1,0 +1,30 @@
+- #todo: add h4 structure change to generator
+- rows_per_page = 10
+- pages = ((@food_tests.length) / rows_per_page).ceil
+= page_title 'Listing Food Tests' do
+  %h4
+    %span#models-counter
+      #{@food_tests.length}
+    food tests over
+    %span#pages-counter{data: {rows_per_page: rows_per_page}}
+      #{(pages  + 1)}
+    pages
+
+= index_page_control(pages)
+
+%table.table.table-striped
+
+  %thead
+    %tr
+      %th #
+      %th Name
+      %th Description
+      %th Price
+      %th Is Alcoholic?
+      %th
+
+  %tbody
+    = render partial: 'food_tests/row_form', locals: {food_test: FoodTest.new}
+    - @food_tests.each_with_index do |food_test, index|
+      = render partial: 'food_tests/row', locals: {food_test: food_test, index: index, is_hidden: (index >= rows_per_page)}
+

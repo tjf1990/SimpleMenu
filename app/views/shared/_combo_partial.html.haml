@@ -1,0 +1,6 @@
+-#render multiple partials via an array of partial names. Partials will be siblings in document.
+-# Params:
+-# partials(hash): Object of the form {name:string, locals:hash}
+
+- partials.each do |partial|
+  = render partial: "#{partial[:name]}", locals: partial[:locals]

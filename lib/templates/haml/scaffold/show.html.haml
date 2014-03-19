@@ -1,0 +1,9 @@
+= page_title
+
+%dl.dl-horizontal
+<% for attribute in attributes -%>
+  %dt <%= attribute.human_name.titleize %><%= '?' if  attribute.type == :boolean %><% if attribute.type == :references -%>
+  %dd= link_to @<%= singular_table_name %>.<%= attribute.name %>.to_s.titleize, @<%= singular_table_name %>.<%= attribute.name %> if @<%= singular_table_name %>.<%= attribute.name %><% else -%>
+  %dd= <%= '"$#{number_with_precision(' if attribute.type == :decimal %>@<%= singular_table_name %>.<%= attribute.name %><%= " ? 'Yes' : 'No'" if attribute.type == :boolean %><%= ', precision: 2)}"' if attribute.type == :decimal %><% end -%>
+<% end -%>
+

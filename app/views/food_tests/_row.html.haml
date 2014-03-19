@@ -1,0 +1,12 @@
+-#Params:
+-# food_test: Instance of FoodTest
+-# index: Table row number
+-# is_hidden: Is this a hidden row?
+- #is_ajax = false if is_ajax.nil?
+%tr{class: ('new-ajax-row' if (is_ajax ||= false)), style: ('display: none;' if is_hidden)}
+  %td= index + 1
+  %td= !(v = food_test.name).blank? ? v : 'Unset'
+  %td= !(v = food_test.description).blank? ? v : 'Unset'
+  %td= !(v = food_test.price).blank? ? "$#{number_with_precision(v, precision: 2)}" : 'Unset'
+  %td= !(v = food_test.is_alcoholic).nil? ? v ? 'Yes' : 'No' : 'Unset'
+  %td= rud_toolbar food_test

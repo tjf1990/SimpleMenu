@@ -1,0 +1,8 @@
+-#Params:
+-# <%= singular_table_name %>: Instance of <%= class_name %>
+-# index: Table row number
+-# is_hidden: Is this a hidden row?
+%tr{style: ('display: none;' if is_hidden)}
+  %td= index + 1<% for attribute in attributes %>
+  %td= !(v = <%= singular_table_name %>.<%= attribute.name %>).<%= attribute.type == :boolean ? 'nil?' : 'blank?'%> ? <%= '"$#{number_with_precision(' if attribute.type == :decimal %>v<%= " ? 'Yes' : 'No'" if attribute.type == :boolean %><%= ', precision: 2)}"' if attribute.type == :decimal %> : 'Unset'<% end %>
+  %td= rud_toolbar <%= singular_table_name %>

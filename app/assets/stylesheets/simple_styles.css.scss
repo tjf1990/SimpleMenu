@@ -1,0 +1,21 @@
+
+@import "bootstrap";
+@import "bootstrap/theme";
+
+//workaround for bootstrap danger class not appearing on striped rows
+.danger {
+  td {
+    background-color: #f2dede !important;
+    color: red !important;
+    &:last-child {font-weight: bold }
+  }
+}
+tbody tr {
+  td:first-of-type {font-weight: bold;}
+}
+
+tbody tr[style*="display: table-row"] {
+    &.new-ajax-row {
+      background-color: #DFF0D8 !important;
+    }
+}

@@ -1,0 +1,11 @@
+-#Params:
+-# <%= singular_table_name %>: Instance of <%= class_name %>
+
+%tr#row-form{class: ('danger' if <%= singular_table_name %>.errors.any?)}
+  = form_for <%= singular_table_name %>, remote: true, html: {class: 'form-row', data: {type:'html'}} do |f|
+    %td New<% for attribute in attributes %>
+    %td{class: ('has-error' if <%= singular_table_name %>.errors[:<%= attribute.name %>].any?)}
+      = f.<%= (attribute.type == :boolean ? 'check_box' : 'text_field')%> :<%= attribute.name %>, class: '<%= 'form-control' unless attribute.type == :boolean %>'
+      - <%= singular_table_name %>.errors[:<%= attribute.name %>].each do |text|
+        = error_help_block text.humanize<% end -%>
+    %td= new_model_toolbar <%= singular_table_name %>

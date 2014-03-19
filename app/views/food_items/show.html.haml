@@ -1,0 +1,17 @@
+= page_title
+
+%dl.dl-horizontal
+
+  %dt Name
+  %dd= @food_item.name
+
+  %dt Description
+  %dd= @food_item.description
+
+  %dt Price
+  %dd= "$#{number_with_precision(@food_item.price, precision: 2)}"
+
+  %dt Is Alcoholic?
+  %dd= @food_item.is_alcoholic ? 'Yes' : 'No'
+
+
