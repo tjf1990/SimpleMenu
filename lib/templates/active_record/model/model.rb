@@ -1,4 +1,5 @@
 class <%= class_name %> < <%= parent_class_name.classify %><% attributes.select {|attr| attr.reference? }.each do |attribute| -%>
+  has_paper_trail
   belongs_to :<%= attribute.name %><% end -%><% unless accessible_attributes.empty? -%>
   attr_accessible <%= accessible_attributes.map {|a| ":#{a.name}" }.join(', ') %>
   alias_attribute :to_s, :name

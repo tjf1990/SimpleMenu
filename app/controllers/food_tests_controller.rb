@@ -94,7 +94,7 @@ class FoodTestsController < ApplicationController
 
     respond_to do |format|
       if request.xhr?
-        format.html { render partial: 'shared/undo_button'}
+        format.html { render partial: 'shared/undo_button', locals: {version_id: @food_test.versions.last.id} }
       else
         format.html { redirect_to food_tests_url, notice: 'food_test deleted successfully'}
       end

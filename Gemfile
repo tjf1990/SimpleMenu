@@ -30,6 +30,7 @@ gem 'cancan', '~> 1.6.10'
 gem 'role_model', '~> 0.8.1'
 gem 'sass-rails',   '~> 3.2.3'
 gem 'bootstrap-sass', '~> 3.0.3.0'
+gem 'paper_trail', '~> 3.0.1'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

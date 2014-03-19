@@ -1,5 +1,6 @@
 class CreateFoodTests < ActiveRecord::Migration
   def change
+
     create_table :food_tests do |t|
       t.string :name
       t.text :description
