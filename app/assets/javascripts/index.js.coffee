@@ -80,8 +80,8 @@ $('table')
     #update model counter above table
     (document.getElementById('models-counter')).innerHTML = tbody_el.children.length - 1
 
-    #add pages if tbody element length has a remainder of 1 or if max_rows is 1
-    if (tbody_el.children.length - 1) % max_rows == 1 || max_rows == 1
+    #add pages if tbody element length has a remainder of 1 or if max_rows is 1. Last term is to account for the page number having a minimum of 1 button
+    if ((tbody_el.children.length - 1) % max_rows == 1 || max_rows == 1) && (tbody_el.children.length - 1) > max_rows
       new_page = parseInt((document.getElementById('pages-counter')).innerHTML) + 1
       (document.getElementById('pages-counter')).innerHTML = new_page
 
