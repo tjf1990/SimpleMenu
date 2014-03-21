@@ -54,7 +54,7 @@
     <ignored path="Simple Menu.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/routes.rb" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1389129098802" ignored="false" />
-    <file path="/Dummy.txt" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1395437735129" ignored="false" />
+    <file path="/Dummy.txt" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1395438170338" ignored="false" />
     <file path="/application.rb" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1389130574655" ignored="false" />
     <file path="/controller.rb" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1389292579594" ignored="false" />
     <file path="/_form.html.haml" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1388769587667" ignored="false" />
@@ -77,7 +77,7 @@
     <file path="/ujs.js.coffee" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1389125893030" ignored="false" />
     <file path="/_alert_box.html.haml" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1389075814292" ignored="false" />
     <file path="/a.dummy" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1390688467523" ignored="false" />
-    <file path="/index.js.coffee" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1395438036560" ignored="false" />
+    <file path="/index.js.coffee" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1395438814327" ignored="false" />
     <file path="/simple_styles.css.scss" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1395261111772" ignored="false" />
     <file path="/_undo_button.html.haml" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1395267041394" ignored="false" />
     <file path="/_new_model_toolbar.html.haml" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1395428015234" ignored="false" />
@@ -140,34 +140,6 @@
     <groupTables value="false" />
     <sortChildren value="false" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="versions_controller.rb" pinned="false" current="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/app/controllers/versions_controller.rb">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state line="10" column="35" selection-start="384" selection-end="384" vertical-scroll-proportion="0.18994413">
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/config/routes.rb">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state line="10" column="53" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="Simple Menu" />
@@ -180,7 +152,7 @@
       <file leaf-file-name="index.js.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/index.js.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="47" selection-start="3794" selection-end="3794" vertical-scroll-proportion="0.51704544">
+            <state line="94" column="46" selection-start="4687" selection-end="4687" vertical-scroll-proportion="0.7681818">
               <folding />
             </state>
           </provider>
@@ -189,21 +161,9 @@
       <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/food_tests/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="63" selection-start="299" selection-end="299" vertical-scroll-proportion="-5.230769">
+            <state line="8" column="34" selection-start="297" selection-end="297" vertical-scroll-proportion="-5.230769">
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="food_tests" pinned="false" current="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/e691b585/c1417565-d3a8-4b6d-9b82-03baec835bc1/..food_tests">
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-            <state />
           </provider>
         </entry>
       </file>
@@ -985,7 +945,11 @@
       <created>1395437744324</created>
       <updated>1395437744324</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Pagination fix for empty dataset">
+      <created>1395438173850</created>
+      <updated>1395438173850</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1054,7 +1018,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed pagination bug for rows_per_page == 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pagination fix for empty dataset" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1077,6 +1041,7 @@
     <MESSAGE value="Row form clear fields button works" />
     <MESSAGE value="Clear button works after error" />
     <MESSAGE value="Fixed pagination bug for rows_per_page == 1" />
+    <MESSAGE value="Pagination fix for empty dataset" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1084,20 +1049,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/food_items/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/food_tests/_form.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/food_tests_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="52" column="69" selection-start="1318" selection-end="1318" vertical-scroll-proportion="0.9899216">
@@ -1161,13 +1112,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_index_page_control.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="38" selection-start="728" selection-end="728" vertical-scroll-proportion="-13.076923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/e691b585/c1417565-d3a8-4b6d-9b82-03baec835bc1/..food_tests">
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
@@ -1185,16 +1129,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_index_page_control.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="38" selection-start="728" selection-end="728" vertical-scroll-proportion="-13.076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/versions_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="35" selection-start="384" selection-end="384" vertical-scroll-proportion="0.18994413">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="53" selection-start="216" selection-end="216" vertical-scroll-proportion="0.18994413">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/food_tests/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="63" selection-start="299" selection-end="299" vertical-scroll-proportion="-5.230769">
+        <state line="8" column="34" selection-start="297" selection-end="297" vertical-scroll-proportion="-5.230769">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/index.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="47" selection-start="3794" selection-end="3794" vertical-scroll-proportion="0.51704544">
+        <state line="94" column="46" selection-start="4687" selection-end="4687" vertical-scroll-proportion="0.7681818">
           <folding />
         </state>
       </provider>

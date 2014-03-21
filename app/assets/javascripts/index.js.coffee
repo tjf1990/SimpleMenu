@@ -95,5 +95,6 @@ $('table')
   .on 'ajax:error', '[method="post"]', (evt, xhr) ->
     $(this.parentElement).replaceWith(xhr.responseText)
 
+  #clear a row form's input
   .on 'click', 'td .clear-input', ->
-    $(this.parentElement.parentElement.parentElement.children).find(':input').val('')
+    $(this.parentElement.parentElement.parentElement.children).find('input[type="text"]').val('')
