@@ -95,4 +95,4 @@ $('table')
     $(this.parentElement).replaceWith(xhr.responseText)
 
   .on 'click', 'td .clear-input', ->
-    $(this.parentElement.parentElement.parentElement.children).children('input.form-control').val('')
+    $(this.parentElement.parentElement.parentElement.children).find(':input').val('')
