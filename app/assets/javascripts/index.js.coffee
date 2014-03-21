@@ -52,17 +52,11 @@ $('.pagination-control-group')
   .on 'click', '.individual-pg-control', ->
     iterateEl $('tbody')[0].children[((pg = parseInt(this.dataset.page)) * max_rows) + static_rows_count], pg + 1
 
-
 $('table')
-  #add danger class and replace buttons after a delete
+  #toggle danger class and replace buttons for delete/undo row
   .on 'ajax:success', '[data-method="delete"], [data-method="post"]', (evt, data) ->
     ($tr = $(this).parents('tr')).toggleClass('danger')
     $tr[0].lastElementChild.innerHTML = data
-
-  #undo a deletion operation by restoring normal rud toolbar
-#  .on 'ajax:success', '[data-method="post"]', (evt, data) ->
-#    console.log data
-
   #new model row appending
   .on 'ajax:success', '[method="post"]', (evt, data) ->
     #append new row after form_row or before the current shown_el and hide/show
@@ -99,3 +93,6 @@ $('table')
 
   .on 'ajax:error', '[method="post"]', (evt, xhr) ->
     $(this.parentElement).replaceWith(xhr.responseText)
+
+  .on 'click', 'td .clear-input', ->
+    $(this.parentElement.parentElement.parentElement.children).children('input.form-control').val('')

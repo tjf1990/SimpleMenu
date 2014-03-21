@@ -1,2 +1,16 @@
 == Simple Menu
 A project designed to expose redundancy in web application development so that it can be refactored out through generators and partials. It's time for web development to kill the boilerplate.
+
+== Generator Highlights
+Location: lib/templates.
+The generators are designed to create a complete graphical representation of a model.
+
+=== Index Page
+Upon generating a model scaffold, a fully UJS integrated index page is generated. The index page contains many helpful javascript features such as AJAX crud operations and fully functional pagination.
+
+== HTML Partial Highlights
+Location: app/views/shared
+I use genericized html partials to deal with common activerecord operations.
+
+=== RUD Toolbar
+The toolbar is used as a partial on every index page. It gives the user to read, update, and delete an existing model instance from a table row.
