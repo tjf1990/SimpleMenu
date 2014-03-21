@@ -1,13 +1,13 @@
-- #todo: add h4 structure change to generator
-- rows_per_page = 10
-- pages = ((@food_tests.length) / rows_per_page).ceil
+- #todo: add line 10 to generator
+- rows_per_page = 5
+- pages = (@food_tests.length + rows_per_page - 1) / rows_per_page
 = page_title 'Listing Food Tests' do
   %h4
     %span#models-counter
       #{@food_tests.length}
     food tests over
     %span#pages-counter{data: {rows_per_page: rows_per_page}}
-      #{(pages  + 1)}
+      #{pages == 0 ? 1 : pages}
     pages
 
 = index_page_control(pages)

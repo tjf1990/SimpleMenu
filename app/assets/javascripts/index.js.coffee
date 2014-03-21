@@ -80,12 +80,13 @@ $('table')
     #update model counter above table
     (document.getElementById('models-counter')).innerHTML = tbody_el.children.length - 1
 
-    #update page counter if last page has a remainder of 1 and add new page button
-    if (tbody_el.children.length - 1) % max_rows == 1
+    #add pages if tbody element length has a remainder of 1 or if max_rows is 1
+    if (tbody_el.children.length - 1) % max_rows == 1 || max_rows == 1
       new_page = parseInt((document.getElementById('pages-counter')).innerHTML) + 1
       (document.getElementById('pages-counter')).innerHTML = new_page
-      #create new page button if page buttons are shown
-      if $('.pagination-control-group .individual-pg-control')
+
+      #create a new page button if page buttons are shown
+      if $('.pagination-control-group .individual-pg-control').length > 0
         new_button = $('.pagination-control-group button:first-child').clone()[0]
         new_button.dataset.page = new_page - 1
         new_button.firstElementChild.innerHTML = new_page

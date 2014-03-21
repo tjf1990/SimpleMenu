@@ -1,5 +1,5 @@
 - rows_per_page = 12
-- pages = (@<%= plural_table_name %>.length / rows_per_page).ceil
+- pages = (@<%= plural_table_name %>.length + rows_per_page - 1) / rows_per_page
 
 = page_title 'Listing <%= plural_table_name.titleize %>' do
   %h4
@@ -7,7 +7,7 @@
       #{@<%= plural_table_name %>.length}
     <%= plural_table_name.humanize.downcase %> over
     %span#pages-counter{data: {rows_per_page: rows_per_page}}
-      #{(pages  + 1)}
+      #{pages == 0 ? 1 : pages}
     pages
 
 = index_page_control(pages)
