@@ -16,9 +16,13 @@ class FoodTestsController < ApplicationController
   # GET /food_tests/1.json
   def show
     #@food_test automatically set to FoodTest.find(params[:id])
-
+    #send table row if ajax request todo: add to scaffolding
     respond_to do |format|
-      format.html { render 'show', layout: !(request.xhr?) }
+      if request.xhr?
+        format.html { render partial: 'row', locals: {food_test: @food_test, index: 0}} #index is set in javascript
+      else
+        format.html { render 'show'}
+      end
       format.json { render json: @food_test }
     end
   end
@@ -39,7 +43,12 @@ class FoodTestsController < ApplicationController
     #@food_test automatically set to FoodTest.find(params[:id])
 
     respond_to do |format|
-      format.html {render 'edit', layout:!(request.xhr?)}
+      #send row form if ajax request todo: add to generator
+      if request.xhr?
+        format.html { render partial: 'row_form', locals: {food_test: @food_test} }
+      else
+        format.html { render 'edit' }
+      end
     end
   end
 
@@ -73,13 +82,21 @@ class FoodTestsController < ApplicationController
   # PUT /food_tests/1.json
   def update
     #@food_test automatically set to FoodTest.find(params[:id])
-
+    #todo: add to generator
     respond_to do |format|
       if @food_test.update_attributes(params[:food_test])
-        format.html { redirect_to @food_test, notice: 'Food test was successfully updated.' }
+        if request.xhr?
+          format.html { render partial: 'row', locals: {food_test: @food_test, index: 0}}
+        else
+          format.html { redirect_to @food_test, notice: 'Food test was successfully updated.' }
+        end
         format.json { head :no_content }
       else
-        format.html { render action: "edit" }
+        if request.xhr?
+          format.html { render partial: 'row_form', locals: {food_test: @food_test}, status: :unprocessable_entity }
+        else
+          format.html { render action: 'edit' }
+        end
         format.json { render json: @food_test.errors, status: :unprocessable_entity }
       end
     end

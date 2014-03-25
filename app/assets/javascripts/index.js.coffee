@@ -57,8 +57,9 @@ $('table')
   .on 'ajax:success', '[data-method="delete"], [data-method="post"]', (evt, data) ->
     ($tr = $(this).parents('tr')).toggleClass('danger')
     $tr[0].lastElementChild.innerHTML = data
+
   #new model row appending
-  .on 'ajax:success', '[method="post"]', (evt, data) ->
+  .on 'ajax:success', '.form-row[method="post"]', (evt, data) ->
     #append new row after form_row or before the current shown_el and hide/show
     if shown_el.length == 0
       $(tbody_el.firstElementChild).after($(data)[2])
@@ -72,7 +73,10 @@ $('table')
     start_count = if shown_el[0].previousElementSibling.id == 'row-form' then 0 else parseInt(shown_el[0].previousElementSibling.firstElementChild.innerHTML)
     iter = shown_el[0].previousElementSibling
     while (iter = iter.nextElementSibling) && (start_count = start_count + 1)
-      iter.firstElementChild.innerHTML = start_count
+      if (td = iter.firstElementChild).tagName == 'TD'
+        td.innerHTML = start_count
+      else
+        td.nextElementSibling.innerHTML = start_count #workaround for open edit_row edge case
 
     #replace old form_row
     $(this.parentElement).replaceWith $(data)[0]
@@ -92,9 +96,24 @@ $('table')
         new_button.firstElementChild.innerHTML = new_page
         $('.pagination-control-group').append new_button
 
-  .on 'ajax:error', '[method="post"]', (evt, xhr) ->
+  #show form-row errors
+  .on 'ajax:error', '.form-row[method="post"]', (evt, xhr) ->
     $(this.parentElement).replaceWith(xhr.responseText)
+
+  #show edit row form for existing rows or cancel edit and set rownum
+  .on 'ajax:success', '.row-edit, .cancel-edit, .form-edit-row', (evt, data) ->
+    replaceRow $(this).parents('tr')[0], data
+
+  .on 'ajax:error', '.form-edit-row', (evt, xhr) ->
+    replaceRow $(this).parents('tr')[0], xhr.responseText
 
   #clear a row form's input
   .on 'click', 'td .clear-input', ->
     $(this.parentElement.parentElement.parentElement.children).find('input[type="text"]').val('')
+
+#replace row, update row number column for new row, and replace shown_el array reference
+replaceRow = (old_row, new_row) ->
+  row_num = parseInt ($old_row = $(old_row)).find('td')[0].innerHTML #get rownum
+  $old_row.replaceWith ($new_row = $(new_row))
+  $new_row.find('td')[0].innerHTML = row_num #set rownum
+  shown_el[(row_num % max_rows) - static_rows_count] = $new_row[0]  #update shown_el array reference

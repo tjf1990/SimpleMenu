@@ -3,7 +3,7 @@
 -# index: Table row number
 -# is_hidden: Is this a hidden row?
 - #is_ajax = false if is_ajax.nil?
-%tr{class: ('new-ajax-row' if (is_ajax ||= false)), style: ('display: none;' if is_hidden)}
+%tr{class: ('new-ajax-row' if (is_ajax ||= false)), style: ('display: none;' if (is_hidden ||= false))}
   %td= index + 1
   %td= !(v = food_test.name).blank? ? v : 'Unset'
   %td= !(v = food_test.description).blank? ? v : 'Unset'

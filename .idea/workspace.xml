@@ -42,6 +42,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/food_items/new.html.haml" afterPath="$PROJECT_DIR$/app/views/food_items/new.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/food_tests/new.html.haml" afterPath="$PROJECT_DIR$/app/views/food_tests/new.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/templates/haml/scaffold/new.html.haml" afterPath="$PROJECT_DIR$/lib/templates/haml/scaffold/new.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/food_items/show.html.haml" afterPath="$PROJECT_DIR$/app/views/food_items/show.html.haml" />
@@ -53,8 +54,8 @@
     </list>
     <ignored path="Simple Menu.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/routes.rb" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1389129098802" ignored="false" />
-    <file path="/Dummy.txt" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1395438170338" ignored="false" />
+    <file path="/routes.rb" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1395777020338" ignored="false" />
+    <file path="/Dummy.txt" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1395761921691" ignored="false" />
     <file path="/application.rb" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1389130574655" ignored="false" />
     <file path="/controller.rb" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1389292579594" ignored="false" />
     <file path="/_form.html.haml" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1388769587667" ignored="false" />
@@ -66,7 +67,7 @@
     <file path="/new.html.haml" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1387420847021" ignored="false" />
     <file path="/show.html.haml" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1387423864120" ignored="false" />
     <file path="/model.rb" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1388772730588" ignored="false" />
-    <file path="/_rud_toolbar.html.haml" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1389736762899" ignored="false" />
+    <file path="/_rud_toolbar.html.haml" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1395684520535" ignored="false" />
     <file path="/seeds.rb" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1389129105562" ignored="false" />
     <file path="/ability.rb" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1388442652030" ignored="false" />
     <file path="/food_item.rb" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1388777473723" ignored="false" />
@@ -77,13 +78,13 @@
     <file path="/ujs.js.coffee" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1389125893030" ignored="false" />
     <file path="/_alert_box.html.haml" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1389075814292" ignored="false" />
     <file path="/a.dummy" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1390688467523" ignored="false" />
-    <file path="/index.js.coffee" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1395438814327" ignored="false" />
+    <file path="/index.js.coffee" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1395781469192" ignored="false" />
     <file path="/simple_styles.css.scss" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1395261111772" ignored="false" />
     <file path="/_undo_button.html.haml" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1395267041394" ignored="false" />
-    <file path="/_new_model_toolbar.html.haml" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1395428015234" ignored="false" />
-    <file path="/food_tests_controller.rb" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1395267665591" ignored="false" />
-    <file path="/_row.html.haml" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1390346481081" ignored="false" />
-    <file path="/_row_form.html.haml" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1389743422697" ignored="false" />
+    <file path="/_new_model_toolbar.html.haml" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1395442398879" ignored="false" />
+    <file path="/food_tests_controller.rb" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1395762271390" ignored="false" />
+    <file path="/_row.html.haml" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1395442446397" ignored="false" />
+    <file path="/_row_form.html.haml" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1395776353857" ignored="false" />
     <file path="/scaffold_generator.rb" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1389150101578" ignored="false" />
     <file path="/dr house.txt" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1389395276268" ignored="false" />
     <file path="/_gerd.html.haml" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1389398082827" ignored="false" />
@@ -149,37 +150,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="_new_model_toolbar.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/shared/_new_model_toolbar.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="70" selection-start="403" selection-end="403" vertical-scroll-proportion="-7.8461537">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="food_tests_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/food_tests_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="95" column="47" selection-start="3167" selection-end="3167" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.js.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/index.js.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="46" selection-start="4687" selection-end="4687" vertical-scroll-proportion="0.7681818">
+            <state line="109" column="20" selection-start="5264" selection-end="5264" vertical-scroll-proportion="1.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/food_tests/index.html.haml">
+      <file leaf-file-name="_rud_toolbar.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/shared/_rud_toolbar.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="34" selection-start="297" selection-end="297" vertical-scroll-proportion="-5.230769">
+            <state line="12" column="41" selection-start="524" selection-end="524" vertical-scroll-proportion="-7.8461537">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/templates/haml/scaffold/index.html.haml">
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="31" selection-start="381" selection-end="381" vertical-scroll-proportion="-5.8846154">
+            <state line="3" column="70" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_index_page_control.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/shared/_index_page_control.html.haml">
+      <file leaf-file-name="_row_form.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/food_tests/_row_form.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="38" selection-start="728" selection-end="728" vertical-scroll-proportion="-13.076923">
+            <state line="4" column="126" selection-start="263" selection-end="263" vertical-scroll-proportion="-2.6153846">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_row.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/food_tests/_row.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="102" selection-start="245" selection-end="245" vertical-scroll-proportion="-3.2692308">
               <folding />
             </state>
           </provider>
@@ -198,6 +226,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GitLogSettings">
     <option name="myDateState">
@@ -207,21 +240,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/lib/templates/active_record/model/model.rb" />
-        <option value="$PROJECT_DIR$/app/models/food_test.rb" />
         <option value="dbtable:/e691b585/c1417565-d3a8-4b6d-9b82-03baec835bc1/..versions" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/shared/_undo_button.html.haml" />
-        <option value="$PROJECT_DIR$/app/controllers/food_tests_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140109184252_create_food_tests.rb" />
         <option value="$PROJECT_DIR$/app/controllers/versions_controller.rb" />
         <option value="$PROJECT_DIR$/README.rdoc" />
-        <option value="$PROJECT_DIR$/app/views/shared/_new_model_toolbar.html.haml" />
-        <option value="dbtable:/e691b585/c1417565-d3a8-4b6d-9b82-03baec835bc1/..food_tests" />
         <option value="$PROJECT_DIR$/app/views/shared/_index_page_control.html.haml" />
         <option value="$PROJECT_DIR$/lib/templates/haml/scaffold/index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/food_tests/index.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/food_tests/_row.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/shared/_new_model_toolbar.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/shared/_rud_toolbar.html.haml" />
+        <option value="$PROJECT_DIR$/app/controllers/food_tests_controller.rb" />
+        <option value="dbtable:/e691b585/c1417565-d3a8-4b6d-9b82-03baec835bc1/..food_tests" />
+        <option value="$PROJECT_DIR$/app/views/food_tests/_row_form.html.haml" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/index.js.coffee" />
       </list>
     </option>
@@ -309,103 +342,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scaffold_controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Simple Menu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Simple Menu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="haml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scaffold" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Simple Menu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Simple Menu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="active_record" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Simple Menu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Simple Menu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Simple Menu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Simple Menu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -485,6 +422,64 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Simple Menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Simple Menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Simple Menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Simple Menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Simple Menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Simple Menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -531,30 +526,6 @@
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:migrate" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="db:rollback" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
-      <module name="Simple Menu" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="development" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:rollback" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="2" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
@@ -624,6 +595,28 @@
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:drop" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="routes" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="Simple Menu" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="routes" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
@@ -865,23 +858,23 @@
       <method />
     </configuration>
     <list size="9">
-      <item index="0" class="java.lang.String" itemvalue="Rake.db:migrate" />
-      <item index="1" class="java.lang.String" itemvalue="Rake.db:rollback" />
-      <item index="2" class="java.lang.String" itemvalue="Rake.db:reset" />
-      <item index="3" class="java.lang.String" itemvalue="Rake.db:setup" />
-      <item index="4" class="java.lang.String" itemvalue="Rake.db:drop" />
-      <item index="5" class="java.lang.String" itemvalue="Rake.test" />
-      <item index="6" class="java.lang.String" itemvalue="Rake.spec" />
-      <item index="7" class="java.lang.String" itemvalue="Rails.Production: Simple Menu" />
-      <item index="8" class="java.lang.String" itemvalue="Rails.Development: Simple Menu" />
+      <item index="0" class="java.lang.String" itemvalue="Rake.test" />
+      <item index="1" class="java.lang.String" itemvalue="Rake.spec" />
+      <item index="2" class="java.lang.String" itemvalue="Rails.Production: Simple Menu" />
+      <item index="3" class="java.lang.String" itemvalue="Rails.Development: Simple Menu" />
+      <item index="4" class="java.lang.String" itemvalue="Rake.db:migrate" />
+      <item index="5" class="java.lang.String" itemvalue="Rake.db:reset" />
+      <item index="6" class="java.lang.String" itemvalue="Rake.db:setup" />
+      <item index="7" class="java.lang.String" itemvalue="Rake.db:drop" />
+      <item index="8" class="java.lang.String" itemvalue="Rake.routes" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Rake.db:migrate" />
-        <item index="1" class="java.lang.String" itemvalue="Rake.db:drop" />
-        <item index="2" class="java.lang.String" itemvalue="Rake.db:reset" />
-        <item index="3" class="java.lang.String" itemvalue="Rake.db:setup" />
-        <item index="4" class="java.lang.String" itemvalue="Rake.db:rollback" />
+        <item index="0" class="java.lang.String" itemvalue="Rake.routes" />
+        <item index="1" class="java.lang.String" itemvalue="Rake.db:migrate" />
+        <item index="2" class="java.lang.String" itemvalue="Rake.db:drop" />
+        <item index="3" class="java.lang.String" itemvalue="Rake.db:reset" />
+        <item index="4" class="java.lang.String" itemvalue="Rake.db:setup" />
       </list>
     </recent_temporary>
   </component>
@@ -949,28 +942,32 @@
       <created>1395438173850</created>
       <updated>1395438173850</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Clear button was causing checkbox to not have value during saving">
+      <created>1395438883252</created>
+      <updated>1395438883252</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1696905" sideWeight="0.594124" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1696905" sideWeight="0.5960912" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1995731" sideWeight="0.59500545" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20811099" sideWeight="0.5960912" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16595517" sideWeight="0.437432" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40499458" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4039088" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1018,7 +1015,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pagination fix for empty dataset" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clear button was causing checkbox to not have value during saving" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1042,6 +1039,7 @@
     <MESSAGE value="Clear button works after error" />
     <MESSAGE value="Fixed pagination bug for rows_per_page == 1" />
     <MESSAGE value="Pagination fix for empty dataset" />
+    <MESSAGE value="Clear button was causing checkbox to not have value during saving" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1049,63 +1047,48 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/food_tests_controller.rb">
+    <entry file="file://$PROJECT_DIR$/lib/templates/haml/scaffold/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="69" selection-start="1318" selection-end="1318" vertical-scroll-proportion="0.9899216">
-          <folding />
-        </state>
+        <state line="9" column="31" selection-start="381" selection-end="381" vertical-scroll-proportion="-5.8846154" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_undo_button.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/controllers/food_items_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="41" selection-start="217" selection-end="217" vertical-scroll-proportion="0.05882353">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.3704414" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_index_page_control.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="38" selection-start="728" selection-end="728" vertical-scroll-proportion="0.6841046" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="32" selection-start="452" selection-end="452" vertical-scroll-proportion="0.17133258">
-          <folding />
-        </state>
+        <state line="9" column="32" selection-start="452" selection-end="452" vertical-scroll-proportion="0.17094973" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/food_tests/_row_form.html.haml">
+    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-rails-3.0.4/vendor/assets/javascripts/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="27" selection-start="1219" selection-end="1219" vertical-scroll-proportion="-17.0">
+        <state line="6178" column="4" selection-start="171628" selection-end="171628" vertical-scroll-proportion="0.16201118">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.rdoc">
+    <entry file="file://$PROJECT_DIR$/app/views/food_tests/_row.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="76" selection-start="785" selection-end="785" vertical-scroll-proportion="0.28977272">
+        <state line="5" column="102" selection-start="245" selection-end="245" vertical-scroll-proportion="-3.2692308">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_rud_toolbar.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/views/food_tests/_form.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="76" selection-start="897" selection-end="897" vertical-scroll-proportion="0.35831383">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0724299">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_new_model_toolbar.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="48" selection-start="261" selection-end="261" vertical-scroll-proportion="0.15686275">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/templates/active_record/model/model.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_title.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/views/food_tests/edit.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -1114,7 +1097,7 @@
     </entry>
     <entry file="dbDummy://dbtable:/e691b585/c1417565-d3a8-4b6d-9b82-03baec835bc1/..food_tests">
       <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1122,44 +1105,51 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/templates/haml/scaffold/index.html.haml">
+    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/haml-4.0.4/lib/haml/helpers/action_view_xss_mods.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="31" selection-start="381" selection-end="381" vertical-scroll-proportion="-5.8846154">
+        <state line="32" column="6" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.33266932">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_index_page_control.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_rud_toolbar.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="38" selection-start="728" selection-end="728" vertical-scroll-proportion="-13.076923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/versions_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="35" selection-start="384" selection-end="384" vertical-scroll-proportion="0.18994413">
+        <state line="12" column="41" selection-start="524" selection-end="524" vertical-scroll-proportion="-7.8461537">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="53" selection-start="216" selection-end="216" vertical-scroll-proportion="0.18994413">
+        <state line="3" column="70" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/food_tests/index.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_new_model_toolbar.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="34" selection-start="297" selection-end="297" vertical-scroll-proportion="-5.230769">
+        <state line="12" column="70" selection-start="403" selection-end="403" vertical-scroll-proportion="-7.8461537">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/food_tests/_row_form.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="126" selection-start="263" selection-end="263" vertical-scroll-proportion="-2.6153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/food_tests_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="47" selection-start="3167" selection-end="3167" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/index.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="46" selection-start="4687" selection-end="4687" vertical-scroll-proportion="0.7681818">
+        <state line="109" column="20" selection-start="5264" selection-end="5264" vertical-scroll-proportion="1.0">
           <folding />
         </state>
       </provider>

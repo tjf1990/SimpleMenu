@@ -1,6 +1,7 @@
 SimpleMenu::Application.routes.draw do
 
   resources :food_tests
+  post "food_tests/:id" => 'food_tests#update' #todo: add to generator
 
   resources :food_items
 

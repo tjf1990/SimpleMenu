@@ -1,4 +1,4 @@
--# index page toolbar for a new model
+-# index page toolbar for a new/edit model. Param is model
 .btn-group
   -# save
   %button.btn.btn-primary{title: 'Save', type: 'submit'}
@@ -7,3 +7,8 @@
   -# clear
   %a.clear-input.btn.btn-danger{title: 'Clear fields'}
     %span.glyphicon.glyphicon-remove
+
+  -# cancel editing
+  - unless model.new_record?
+    = link_to model, remote: true, class: 'btn btn-default cancel-edit', title: 'Cancel Edit', data: {type: 'html'} do
+      %span.glyphicon.glyphicon-share-alt

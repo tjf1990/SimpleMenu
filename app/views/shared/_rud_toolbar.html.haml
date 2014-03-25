@@ -10,7 +10,7 @@
 
   -#edit
   - if enabled_buttons[:edit] ||= (can? :update, model)
-    = link_to edit_polymorphic_path(model), class: 'btn btn-default', title: 'Edit' do
+    = link_to edit_polymorphic_path(model), remote: true, class: 'btn btn-default row-edit', title: 'Edit', data: {type: 'html'} do
       %span.glyphicon.glyphicon-edit
 
   -#destroy

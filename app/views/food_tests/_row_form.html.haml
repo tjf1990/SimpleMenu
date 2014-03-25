@@ -1,13 +1,13 @@
 -#Params:
 -# food_test: Instance of FoodTest
 
-%tr#row-form{class: ('danger' if food_test.errors.any?)}
-  = form_for food_test, remote: true, html: {class: 'form-row', data: {type:'html'}} do |f|
+%tr{id: ('row-form' if food_test.new_record?), class: ('danger' if food_test.errors.any?)}
+  = form_for food_test, remote: true, html: {class: (food_test.new_record? ? 'form-row' : 'form-edit-row'), data: {type:'html'}} do |f|
     %td
       - if food_test.errors.any?
         = "#{food_test.errors.count} #{food_test.errors.count > 1 ? 'Errors' : 'Error'} to Fix"
       - else
-        New
+        #{food_test.new_record? ? 'New' : 'Edit'}
     %td{class: ('has-error' if food_test.errors[:name].any?)}
       = f.text_field :name, class: 'form-control'
       - food_test.errors[:name].each do |text|
