@@ -21,7 +21,9 @@ The toolbar is used as a partial on every index page. It gives the user to read,
 This is the program sketch I'm using to test my scaffold generators.
 
 *RestaurantChain*
+
 has_many locations
+
 name:string
 
 *Location*
