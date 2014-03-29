@@ -16,7 +16,7 @@ class FoodTestsController < ApplicationController
   # GET /food_tests/1.json
   def show
     #@food_test automatically set to FoodTest.find(params[:id])
-    #send table row if ajax request todo: add to scaffolding
+    #send table row if ajax request todo: added, test
     respond_to do |format|
       if request.xhr?
         format.html { render partial: 'row', locals: {food_test: @food_test, index: 0}} #index is set in javascript
@@ -43,7 +43,7 @@ class FoodTestsController < ApplicationController
     #@food_test automatically set to FoodTest.find(params[:id])
 
     respond_to do |format|
-      #send row form if ajax request todo: add to generator
+      #send row form if ajax request todo: added, test
       if request.xhr?
         format.html { render partial: 'row_form', locals: {food_test: @food_test} }
       else
@@ -59,7 +59,7 @@ class FoodTestsController < ApplicationController
     respond_to do |format|
       if @food_test.save
         if request.xhr?
-          #todo: add to generator
+          #todo: added, test
           format.html {render partial: 'shared/combo_partial',
                               locals: { partials: [{name:'food_tests/row_form', locals: {food_test: FoodTest.new}},
                                                    {name:'food_tests/row', locals: {food_test: @food_test, index: 0, is_hidden: false, is_ajax: true}}]} }
@@ -82,7 +82,7 @@ class FoodTestsController < ApplicationController
   # PUT /food_tests/1.json
   def update
     #@food_test automatically set to FoodTest.find(params[:id])
-    #todo: add to generator
+    #todo: added, test
     respond_to do |format|
       if @food_test.update_attributes(params[:food_test])
         if request.xhr?
@@ -110,7 +110,7 @@ class FoodTestsController < ApplicationController
     @food_test.destroy
 
     respond_to do |format|
-      if request.xhr?
+      if request.xhr?  #todo: added, test
         format.html { render partial: 'shared/undo_button', locals: {version_id: @food_test.versions.last.id} }
       else
         format.html { redirect_to food_tests_url, notice: 'food_test deleted successfully'}

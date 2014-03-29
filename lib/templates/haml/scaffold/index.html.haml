@@ -21,6 +21,6 @@
       %th
 
   %tbody
-    = render partial: '<%= plural_table_name %>/row_form', locals: {<%= singular_table_name %>: <%= class_name %>.new}
+    = render partial: 'row_form', locals: {<%= singular_table_name %>: <%= class_name %>.new}
     - @<%= plural_table_name %>.each_with_index do |<%= singular_table_name %>, index|
-      = render partial: '<%= plural_table_name %>/row', locals: {<%= singular_table_name %>: <%= singular_table_name %>, index: index, is_hidden: (index >= rows_per_page)}
+      = render partial: 'row', locals: {<%= singular_table_name %>: <%= singular_table_name %>, index: index, is_hidden: (index >= rows_per_page)}
