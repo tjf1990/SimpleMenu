@@ -1,0 +1,23 @@
+-#Params:
+-# food_item: Instance of FoodItem
+
+%tr{id: ('row-form' if food_item.new_record?), class: ('danger' if food_item.errors.any?)}
+  = form_for food_item, remote: true, html: {class: (food_item.new_record? ? 'form-row' : 'form-edit-row'), data: {type:'html'}} do |f|
+    %td New
+    %td{class: ('has-error' if food_item.errors[:name].any?)}
+      = f.text_field :name, class: 'form-control'
+      - food_item.errors[:name].each do |text|
+        = error_help_block text.humanize
+    %td{class: ('has-error' if food_item.errors[:description].any?)}
+      = f.text_field :description, class: 'form-control'
+      - food_item.errors[:description].each do |text|
+        = error_help_block text.humanize
+    %td{class: ('has-error' if food_item.errors[:price].any?)}
+      = f.text_field :price, class: 'form-control'
+      - food_item.errors[:price].each do |text|
+        = error_help_block text.humanize
+    %td{class: ('has-error' if food_item.errors[:is_alcoholic].any?)}
+      = f.check_box :is_alcoholic, class: ''
+      - food_item.errors[:is_alcoholic].each do |text|
+        = error_help_block text.humanize
+    %td= new_model_toolbar food_item

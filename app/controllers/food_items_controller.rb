@@ -18,7 +18,11 @@ class FoodItemsController < ApplicationController
     #@food_item automatically set to FoodItem.find(params[:id])
 
     respond_to do |format|
-      format.html { render 'show', layout: !(request.xhr?) }
+      if request.xhr?
+        format.html { render partial: 'row', locals: {food_item: @food_item, index: 0}} #index is set in javascript
+      else
+        format.html { render 'show' }
+      end
       format.json { render json: @food_item }
     end
   end
@@ -39,7 +43,11 @@ class FoodItemsController < ApplicationController
     #@food_item automatically set to FoodItem.find(params[:id])
 
     respond_to do |format|
-      format.html {render 'edit', layout:!(request.xhr?)}
+      if request.xhr?
+        format.html { render partial: 'row_form', locals: {food_item: @food_item} }
+      else
+        format.html {render 'edit'}
+      end
     end
   end
 
@@ -50,26 +58,44 @@ class FoodItemsController < ApplicationController
 
     respond_to do |format|
       if @food_item.save
-        format.html { redirect_to @food_item, notice: 'Food item was successfully created.' }
+        if request.xhr?
+          format.html {render partial: 'shared/combo_partial',
+                              locals: { partials: [{name:'food_items/row_form', locals: {food_item: FoodItem.new}},
+                                                   {name:'food_items/row', locals: {food_item: @food_item, index: 0, is_hidden: false, is_ajax: true}}]} }
+        else
+          format.html { redirect_to @food_item, notice: 'Food item was successfully created.' }
+        end
         format.json { render json: @food_item, status: :created, location: @food_item }
       else
-        format.html { render action: "new" }
+        if request.xhr?
+          format.html { render partial: 'food_items/row_form', locals: {food_item: @food_item}, status: :unprocessable_entity }
+        else
+          format.html { render action: "new" }
+        end
         format.json { render json: @food_item.errors, status: :unprocessable_entity }
       end
     end
   end
 
-  # PUT /food_items/1
-  # PUT /food_items/1.json
+  # PUT/POST /food_items/1
+  # PUT/POST /food_items/1.json
   def update
     #@food_item automatically set to FoodItem.find(params[:id])
 
     respond_to do |format|
       if @food_item.update_attributes(params[:food_item])
-        format.html { redirect_to @food_item, notice: 'Food item was successfully updated.' }
+        if request.xhr?
+          format.html { render partial: 'row', locals: {food_item: @food_item, index: 0}}
+        else
+          format.html { redirect_to @food_item, notice: 'Food item was successfully updated.' }
+        end
         format.json { head :no_content }
       else
-        format.html { render action: "edit" }
+        if request.xhr?
+          format.html { render partial: 'row_form', locals: {food_item: @food_item}, status: :unprocessable_entity }
+        else
+          format.html { render action: "edit" }
+        end
         format.json { render json: @food_item.errors, status: :unprocessable_entity }
       end
     end
@@ -84,9 +110,9 @@ class FoodItemsController < ApplicationController
 
     respond_to do |format|
       if request.xhr?
-        format.html { render partial: 'shared/undo_button'}
+        format.html { render partial: 'shared/undo_button', locals: {version_id: @food_item.versions.last.id}}
       else
-        format.html { redirect_to food_items_url, notice: 'food_item deleted successfully'}
+        format.html { redirect_to food_items_url, notice: 'Food item deleted successfully'}
       end
       format.json { head :no_content }
     end

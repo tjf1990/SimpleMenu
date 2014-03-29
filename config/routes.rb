@@ -1,5 +1,8 @@
 SimpleMenu::Application.routes.draw do
 
+  resources :food_items
+
+
   resources :food_tests
 
   resources :food_items

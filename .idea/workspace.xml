@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" name="Default" comment="">
+    <list default="true" id="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" name="Default" comment="Scaffolding updated, testing now">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140329205328_create_food_items.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/food_items/_row.html.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/food_items/_row_form.html.haml" />
+      <change type="DELETED" beforePath="C:\Users\TJ\RubymineProjects\Simple Menu\db\migrate\20140103214508_create_food_items.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/food_items/_form.html.haml" afterPath="$PROJECT_DIR$/app/views/food_items/_form.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/templates/haml/scaffold/_row.html.haml" afterPath="$PROJECT_DIR$/lib/templates/haml/scaffold/_row.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/templates/haml/scaffold/_row_form.html.haml" afterPath="$PROJECT_DIR$/lib/templates/haml/scaffold/_row_form.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/templates/rails/scaffold_controller/controller.rb" afterPath="$PROJECT_DIR$/lib/templates/rails/scaffold_controller/controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/food_tests_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/food_tests_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/templates/haml/scaffold/index.html.haml" afterPath="$PROJECT_DIR$/lib/templates/haml/scaffold/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/food_item.rb" afterPath="$PROJECT_DIR$/app/models/food_item.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/food_items_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/food_items_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/food_items/index.html.haml" afterPath="$PROJECT_DIR$/app/views/food_items/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/templates/active_record/model/model.rb" afterPath="$PROJECT_DIR$/lib/templates/active_record/model/model.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Simple Menu.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/routes.rb" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1396124171297" ignored="false" />
-    <file path="/Dummy.txt" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1396121337669" ignored="false" />
+    <file path="/Dummy.txt" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1396127908158" ignored="false" />
     <file path="/application.rb" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1389130574655" ignored="false" />
     <file path="/controller.rb" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1396122292655" ignored="false" />
     <file path="/_form.html.haml" changelist="32cf16ad-c689-4dd7-b7fb-4a8c07d65786" time="1388769587667" ignored="false" />
@@ -107,43 +113,7 @@
             <file leaf-file-name="food_tests_controller.rb" pinned="false" current="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/app/controllers/food_tests_controller.rb">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state line="62" column="46" selection-start="1710" selection-end="1710" vertical-scroll-proportion="-0.22489083">
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="food_test.rb" pinned="false" current="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/app/models/food_test.rb">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="_form.html.haml" pinned="false" current="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/app/views/food_tests/_form.html.haml">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="_row.html.haml" pinned="false" current="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/app/views/food_tests/_row.html.haml">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state line="11" column="22" selection-start="558" selection-end="558" vertical-scroll-proportion="-7.1923075">
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="_row_form.html.haml" pinned="false" current="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/app/views/food_tests/_row_form.html.haml">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state line="10" column="53" selection-start="526" selection-end="526" vertical-scroll-proportion="-6.5384617">
+                  <state line="88" column="43" selection-start="2854" selection-end="2854" vertical-scroll-proportion="0.7525196">
                     <folding />
                   </state>
                 </provider>
@@ -163,28 +133,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_new_model_toolbar.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/shared/_new_model_toolbar.html.haml">
+      <file leaf-file-name="_row.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/templates/haml/scaffold/_row.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="70" selection-start="403" selection-end="403" vertical-scroll-proportion="-7.8461537">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controller.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/templates/rails/scaffold_controller/controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="96" column="50" selection-start="4100" selection-end="4100" vertical-scroll-proportion="1.7902495">
+            <state line="7" column="13" selection-start="615" selection-end="615" vertical-scroll-proportion="-4.576923">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="_row.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/templates/haml/scaffold/_row.html.haml">
+        <entry file="file://$PROJECT_DIR$/app/views/food_tests/_row.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="11" selection-start="145" selection-end="145" vertical-scroll-proportion="-2.6153846">
+            <state line="11" column="32" selection-start="564" selection-end="564" vertical-scroll-proportion="-7.1923075">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="versions_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/versions_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="64" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js.coffee" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/index.js.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="50" selection-start="764" selection-end="764" vertical-scroll-proportion="0.40568182">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="food_items_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/food_items_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="76" column="49" selection-start="2408" selection-end="2408" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_row.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/food_items/_row.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -217,22 +214,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/README.rdoc" />
         <option value="$PROJECT_DIR$/app/views/shared/_index_page_control.html.haml" />
         <option value="$PROJECT_DIR$/app/views/food_tests/index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/food_tests/_row.html.haml" />
         <option value="$PROJECT_DIR$/app/views/shared/_new_model_toolbar.html.haml" />
         <option value="$PROJECT_DIR$/app/views/shared/_rud_toolbar.html.haml" />
-        <option value="dbtable:/e691b585/c1417565-d3a8-4b6d-9b82-03baec835bc1/..food_tests" />
         <option value="$PROJECT_DIR$/app/views/food_tests/_row_form.html.haml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/index.js.coffee" />
         <option value="$PROJECT_DIR$/app/controllers/food_tests_controller.rb" />
         <option value="$PROJECT_DIR$/lib/templates/rails/scaffold_controller/controller.rb" />
-        <option value="$PROJECT_DIR$/lib/templates/haml/scaffold/_row.html.haml" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/lib/templates/haml/scaffold/_row_form.html.haml" />
         <option value="$PROJECT_DIR$/lib/templates/haml/scaffold/index.html.haml" />
+        <option value="$PROJECT_DIR$/lib/templates/haml/scaffold/_row.html.haml" />
+        <option value="$PROJECT_DIR$/lib/templates/active_record/model/model.rb" />
+        <option value="dbtable:/e691b585/c1417565-d3a8-4b6d-9b82-03baec835bc1/..food_tests" />
+        <option value="$PROJECT_DIR$/lib/templates/haml/scaffold/_row_form.html.haml" />
       </list>
     </option>
   </component>
@@ -483,6 +480,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="food_items" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Simple Menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Simple Menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -516,6 +535,68 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Simple Menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Simple Menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Simple Menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Simple Menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Simple Menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Simple Menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -991,18 +1072,23 @@
       <created>1395856100457</created>
       <updated>1395856100457</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Scaffolding updated, testing now">
+      <created>1396124920563</created>
+      <updated>1396124920563</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1696905" sideWeight="0.59738845" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25720385" sideWeight="0.59738845" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22145145" sideWeight="0.59738845" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1547492" sideWeight="0.6702938" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16595517" sideWeight="0.437432" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1012,7 +1098,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1060,7 +1145,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Random commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Scaffolding updated, testing now" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1087,6 +1172,7 @@
     <MESSAGE value="Clear button was causing checkbox to not have value during saving" />
     <MESSAGE value="Inline row edit functionality finished for food_test. Still need to add all the new changes to the scaffold generator." />
     <MESSAGE value="Random commit" />
+    <MESSAGE value="Scaffolding updated, testing now" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1094,64 +1180,32 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/food_tests/_form.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="139" selection-start="250" selection-end="250" vertical-scroll-proportion="0.1519553">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/templates/haml/scaffold/_row.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="11" selection-start="145" selection-end="145" vertical-scroll-proportion="-2.6153846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/food_tests/_row.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="22" selection-start="558" selection-end="558" vertical-scroll-proportion="-7.1923075">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/templates/active_record/model/model.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="10" column="191" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/templates/haml/scaffold/show.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/models/food_item.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="9" column="29" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/templates/haml/scaffold/new.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+    <entry file="dbDummy://dbtable:/e691b585/c1417565-d3a8-4b6d-9b82-03baec835bc1/..food_tests">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/templates/haml/scaffold/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="65" selection-start="421" selection-end="421" vertical-scroll-proportion="0.25431532">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/templates/haml/scaffold/_row_form.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="55" selection-start="865" selection-end="865" vertical-scroll-proportion="0.19859813">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/food_tests/edit.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
@@ -1164,44 +1218,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_new_model_toolbar.html.haml">
+    <entry file="file://$PROJECT_DIR$/lib/templates/haml/scaffold/_row_form.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="70" selection-start="403" selection-end="403" vertical-scroll-proportion="-7.8461537">
+        <state line="3" column="3" selection-start="75" selection-end="75" vertical-scroll-proportion="-1.9615384">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/food_tests/show.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/models/food_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="36" selection-start="263" selection-end="263" vertical-scroll-proportion="0.28651685">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/food_tests/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="49" selection-start="394" selection-end="394" vertical-scroll-proportion="0.3247191">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/food_tests/_row_form.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="53" selection-start="526" selection-end="526" vertical-scroll-proportion="-6.5384617">
+        <state line="10" column="53" selection-start="526" selection-end="526" vertical-scroll-proportion="0.19607843">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/food_tests_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="46" selection-start="1710" selection-end="1710" vertical-scroll-proportion="-0.22489083">
+        <state line="88" column="43" selection-start="2854" selection-end="2854" vertical-scroll-proportion="0.7525196">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/templates/rails/scaffold_controller/controller.rb">
+    <entry file="file://$PROJECT_DIR$/lib/templates/haml/scaffold/_row.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="50" selection-start="4100" selection-end="4100" vertical-scroll-proportion="1.7902495">
+        <state line="7" column="13" selection-start="615" selection-end="615" vertical-scroll-proportion="-4.576923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/simple_styles.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/food_items/_row.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/food_items_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="49" selection-start="2408" selection-end="2408" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/food_tests/_row.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="32" selection-start="564" selection-end="564" vertical-scroll-proportion="-7.1923075">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/versions_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="64" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/index.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="50" selection-start="764" selection-end="764" vertical-scroll-proportion="0.40568182">
           <folding />
         </state>
       </provider>

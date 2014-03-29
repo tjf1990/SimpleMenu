@@ -37,7 +37,7 @@
     = f.label :is_alcoholic, 'Is Alcoholic?', class: "control-label col-xs-#{label_span[:xs]} col-sm-#{label_span[:sm]} col-md-#{label_span[:md]} col-lg-#{label_span[:lg]}"
 
     %div{class: "input-group col-xs-#{total_span[:xs] - label_span[:xs]} col-sm-#{total_span[:sm] - label_span[:sm]} col-md-#{total_span[:md] - label_span[:md]} col-lg-#{total_span[:lg] - label_span[:lg]}"}
-      .checkbox= f.check_box :is_alcoholic
+      .checkbox= f.check_box :is_alcoholic, class: ''
 
     %div{class: "col-xs-offset-#{label_span[:xs]} col-sm-offset-#{label_span[:sm]} col-md-offset-#{label_span[:md]} col-lg-offset-#{label_span[:lg]}"}
       - @food_item.errors[:is_alcoholic].each do |text|
