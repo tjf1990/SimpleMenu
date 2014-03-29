@@ -111,9 +111,9 @@ $('table')
   .on 'click', 'td .clear-input', ->
     $(this.parentElement.parentElement.parentElement.children).find('input[type="text"]').val('')
 
-#replace row, update row number column for new row, and replace shown_el array reference
+#replace numbered row, update row number column for new row, and replace shown_el array reference
 replaceRow = (old_row, new_row) ->
   row_num = parseInt ($old_row = $(old_row)).find('td')[0].innerHTML #get rownum
   $old_row.replaceWith ($new_row = $(new_row))
   $new_row.find('td')[0].innerHTML = row_num #set rownum
-  shown_el[(row_num % max_rows) - static_rows_count] = $new_row[0]  #update shown_el array reference
+  shown_el[(row_num % max_rows) - static_rows_count] = $new_row[0] #update shown_el array reference

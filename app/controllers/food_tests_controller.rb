@@ -71,7 +71,7 @@ class FoodTestsController < ApplicationController
         if request.xhr?
           format.html { render partial: 'food_tests/row_form', locals: {food_test: @food_test}, status: :unprocessable_entity }
         else
-          format.html { render action: "new" }
+          format.html { render action: 'new' }
         end
         format.json { render json: @food_test.errors, status: :unprocessable_entity }
       end
