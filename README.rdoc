@@ -2,7 +2,8 @@
 A project designed to expose redundancy in web application development so that it can be refactored out through generators and partials. It's time for web development to kill the boilerplate.
 
 == Generator Highlights
-Location: lib/templates.
+Location: lib/templates
+
 The generators are designed to create a complete graphical representation of a model.
 
 === Index Page
@@ -10,7 +11,57 @@ Upon generating a model scaffold, a fully UJS integrated index page is generated
 
 == HTML Partial Highlights
 Location: app/views/shared
+
 I use genericized html partials to deal with common activerecord operations.
 
 === RUD Toolbar
 The toolbar is used as a partial on every index page. It gives the user to read, update, and delete an existing model instance from a table row.
+
+== Program Sketch
+This is the program sketch I'm using to test my scaffold generators.
+
+**RestaurantChain**
+has_many locations
+name:string
+
+**Location**
+belongs_to restaurant_chain
+has_many location_menus -> menus
+(name ||= restaurant_chain.name):string, street_address, city, state, zip, phone, email
+
+**Menu**
+has_many location_menus -> locations
+has_many category_menus -> categories
+name:string
+
+**Week**
+has_many food_items < categories < menus
+has_many days, 0(sun) - 6(sat) where !is_special
+	- validates length <= 7
+has_many specials, == day where day_of_week.nil?
+
+**Day**
+belongs_to week
+day_of_week:integer start:datetime end:datetime
+	- start, end: use time only unless is_special?
+def is_special? = (day_of_week.nil?)
+
+**Category**
+has_many category_menus -> menus
+has_many category_food_items -> food_items
+name:string description:text
+
+**FoodItem**
+has_many category_food_items -> categories
+has_many food_item_ingredients -> ingredients
+belongs_to week
+name:string description:text price:decimal is_alcoholic:boolean
+
+**Ingredient**
+has_many allergy_warnings
+has_many food_item_ingredients -> food_items
+name:string description:string
+
+**AllergyWarning**
+belongs_to ingredient
+description:text always_displayed:boolean
