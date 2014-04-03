@@ -20,48 +20,74 @@ The toolbar is used as a partial on every index page. It gives the user to read,
 == Program Sketch
 This is the program sketch I'm using to test my scaffold generators.
 
-**RestaurantChain**
+*RestaurantChain*
+
 has_many locations
+
 name:string
 
-**Location**
+*Location*
+
 belongs_to restaurant_chain
+
 has_many location_menus -> menus
+
 (name ||= restaurant_chain.name):string, street_address, city, state, zip, phone, email
 
-**Menu**
+*Menu*
+
 has_many location_menus -> locations
+
 has_many category_menus -> categories
+
 name:string
 
-**Week**
+*Week*
+
 has_many food_items < categories < menus
+
 has_many days, 0(sun) - 6(sat) where !is_special
 	- validates length <= 7
+
 has_many specials, == day where day_of_week.nil?
 
-**Day**
+*Day*
+
 belongs_to week
+
 day_of_week:integer start:datetime end:datetime
 	- start, end: use time only unless is_special?
+
 def is_special? = (day_of_week.nil?)
 
-**Category**
+*Category*
+
 has_many category_menus -> menus
+
 has_many category_food_items -> food_items
+
 name:string description:text
 
-**FoodItem**
+*FoodItem*
+
 has_many category_food_items -> categories
+
 has_many food_item_ingredients -> ingredients
+
 belongs_to week
+
 name:string description:text price:decimal is_alcoholic:boolean
 
-**Ingredient**
+*Ingredient*
+
 has_many allergy_warnings
+
 has_many food_item_ingredients -> food_items
+
 name:string description:string
 
-**AllergyWarning**
+*AllergyWarning*
+
 belongs_to ingredient
+
 description:text always_displayed:boolean
