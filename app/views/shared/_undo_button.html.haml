@@ -1,4 +1,6 @@
 -#params: version_id
 .btn-group
   = link_to revert_version_path(version_id), method: :post, remote: true, class: 'btn btn-danger', title: 'Undo Delete', data: {type: 'html'} do
-    %span.glyphicon.glyphicon-ban-circle
+    %span.glyphicon.glyphicon-share-alt
+  %a.btn.btn-danger.remove-row{title: 'Remove Row'}
+    %span.glyphicon.glyphicon-minus

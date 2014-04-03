@@ -38,6 +38,13 @@ iterateEl = (first_el, page = null, reverse = false, max = max_rows) ->
       iter = iter.nextElementSibling
     count++ unless is_row_form
 
+#replace numbered row, update row number column for new row, and replace shown_el array reference
+replaceRow = (old_row, new_row) ->
+  row_num = parseInt ($old_row = $(old_row)).find('td')[0].innerHTML #get rownum
+  $old_row.replaceWith ($new_row = $(new_row))
+  $new_row.find('td')[0].innerHTML = row_num #set rownum
+  shown_el[(row_num % max_rows) - static_rows_count] = $new_row[0] #update shown_el array reference
+
 $('.pagination-control-group')
   .on 'click', '#next-page', ->
     if shown_el[shown_el.length - 1].nextElementSibling
@@ -111,9 +118,24 @@ $('table')
   .on 'click', 'td .clear-input', ->
     $(this.parentElement.parentElement.parentElement.children).find('input[type="text"]').val('')
 
-#replace numbered row, update row number column for new row, and replace shown_el array reference
-replaceRow = (old_row, new_row) ->
-  row_num = parseInt ($old_row = $(old_row)).find('td')[0].innerHTML #get rownum
-  $old_row.replaceWith ($new_row = $(new_row))
-  $new_row.find('td')[0].innerHTML = row_num #set rownum
-  shown_el[(row_num % max_rows) - static_rows_count] = $new_row[0] #update shown_el array reference
+  #remove a deleted numbered row from dom
+  .on 'click', 'td .remove-row', ->
+    remove_row_num = parseInt ($row = $(this).parents('tr')).find('td')[0].innerHTML #get rownum
+    shown_el.splice (remove_row_num - 1)
+
+    iter_tr = $row[0]
+    while (iter_tr = iter_tr.nextElementSibling)
+      td_el = if iter_tr.children[0].tagName is 'TD' then iter_tr.children[0] else iter_tr.children[1]
+      td_el.innerHTML = (row_num = (parseInt(td_el.innerHTML) - 1))
+      unless shown_el.length >= max_rows
+        shown_el[row_num - 1] = td_el.parentElement
+        td_el.parentElement.style.display = 'table-row'
+
+    $row.remove()
+
+    if (len = tbody_el.children.length - static_rows_count) > 1 && len % max_rows == 0
+      (pg_el = document.getElementById('pages-counter')).innerHTML = parseInt(pg_el.innerHTML) - 1
+      $('.pagination-control-group .individual-pg-control:last').remove()
+
+    #update model counter above table
+    (document.getElementById('models-counter')).innerHTML = tbody_el.children.length - static_rows_count
